@@ -20,7 +20,7 @@ const HomePage = () => {
       <h1>Welcome to the Home Page</h1>
       <button onClick={handleTable1Click}>Table 1</button>
       <button onClick={handleTable2Click}>Table 2</button>
-      <button onClick={handleTable3Click}>Table 3</button>
+      {/* <button onClick={handleTable3Click}>Table 3</button> */}
     </div>
   );
 };
